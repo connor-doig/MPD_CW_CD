@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- MPD XML Starter code Semester B Session 2020 2021 -->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" android:layout_height="fill_parent">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+
+        <LinearLayout
+            android:layout_width="126dp"
+            android:layout_height="77dp"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/startButton"
+                android:layout_width="123dp"
+                android:layout_height="match_parent"
+                android:text="Press to get data" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/salutation"
+            android:layout_width="282dp"
+            android:layout_height="410dp"
+            android:text="Welcome to Mobile Platform Development Assignment
+2021-2022"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/acknowledgement"
+            android:layout_width="122dp"
+            android:layout_height="410dp"
+            android:text="Contains Traffic Scotland Data"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/rawDataDisplay"
+            android:layout_width="fill_parent"
+            android:layout_height="410dp"
+            android:text="Raw Data is Displayed here"
+            android:textSize="20sp" />
+    </LinearLayout>
+</ScrollView>
+
+
